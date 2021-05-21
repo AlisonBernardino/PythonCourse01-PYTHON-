@@ -53,39 +53,78 @@ print('The subtraction is = {}'.format(val01-val02))
 #Challenge05
 # Build a software to capture a number,
 # print its predecessor and its successor
-
+val01 = int(input('Type a value = '))
+#print('Method 01 = ')
+#previous = val01 -1
+#next = val01 +1
+#print('Your input = {} | Next = {} | Previous = {}'.format(val01,next,previous))
+print('Method 02 = ')
+print('Input value = {} | Predecessor = {} | Successor = {}'.format(val01, (val01-1),(val01+1)))
 
 #Challenge06
 # Make a software capable of reading a number,
 # print the double value, the triple value and
 # the square root
+print('========================================')
+print('Challenge 06 - Double, Triple and square root')
+input001 = int(input('Type an input = '))
+#double = input001 *2
+#triple = input001 *3
+#sqrt = input001 ** (1/2)
+print('Input = {} | Double = {} | Triple = {} | Square root = {}'.format(input001, (input001*2),(input001*3),pow(input001, (1/2))))
 
 #Challenge07
 # Build an app capable of receiving 02 mentions,
 # calculate the average and show it on the print statement
+print('========================================')
+print('Challenge 07 - Average calculation')
+avg01 = float(input('Type the 1st average = '))
+avg02 = float(input('Now, type the 2nd average = '))
+finalAvg = (avg01 + avg02) /2
+print('1st average = {:.1f} | 2nd average = {:.1f} | Final average {:.1f}'.format(avg01,avg02,((avg01+avg02)/2)))
 
 #Challenge08
 # Make an app to receive a value in meters,
 # print the input in centimeters and milimeters
+print('========================================')
+print('Challenge 08 - Meters details')
+measurement = float(input('Type the measurement input = '))
+km = measurement * 0.001
+hm = measurement * 0.01
+dam = measurement * 0.1
+dm = measurement * 10
+cm = measurement * 100
+mm = measurement * 1000
+print('Input = {} meters | Km = {:.4f} | Hm = {} | Dam = {:.2f} | Dm = {} | Cm = {} | Mm = {}'.format(measurement,km,hm,dam,dm,cm,mm))
 
 #Challenge09
 # Build a software to receive an input and print
 # its multiplication table (From x1 to x10)
+print('========================================')
+print('Challenge 09')
 
 #Challenge10
 # Create an app to receive the user cash availability
 # and shows how many dollars can be purchased
 # Consider = US$1.00 = R$5,24 (Updated in 2021/05/10 - 01:54)
+print('========================================')
+print('Challenge 10')
 
 #Challenge11
 # Build an app to receive the wall height, width,
 # calculates the area and the paint quantity needed to paint the wall.
 # Consider = 1L Paint can cover a 2m² area.
+print('========================================')
+print('Challenge 11')
 
 #Challenge12
 # Make a program to receive a product price and
 # shows its new price considering 5% off
+print('========================================')
+print('Challenge 12')
 
 #Challenge13
 # Build a system to receive the worker salary
 # and show a new salary with a magnification of 15%.
+print('========================================')
+print('Challenge 13')
