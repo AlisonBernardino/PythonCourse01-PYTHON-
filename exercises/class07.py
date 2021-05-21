@@ -101,7 +101,19 @@ print('Input = {} meters | Km = {:.4f} | Hm = {} | Dam = {:.2f} | Dm = {} | Cm =
 # Build a software to receive an input and print
 # its multiplication table (From x1 to x10)
 print('========================================')
-print('Challenge 09')
+print('Challenge 09 - Multiplication table')
+value = int(input('Insert the sample value = '))
+print('{} x 1 = {}'.format(value, (value*1)))
+print('{} x 2 = {}'.format(value, (value*2)))
+print('{} x 3 = {}'.format(value, (value*3)))
+print('{} x 4 = {}'.format(value, (value*4)))
+print('{} x 5 = {}'.format(value, (value*5)))
+print('{} x 6 = {}'.format(value, (value*6)))
+print('{} x 7 = {}'.format(value, (value*7)))
+print('{} x 8 = {}'.format(value, (value*8)))
+print('{} x 9 = {}'.format(value, (value*9)))
+print('{} x 10 = {}'.format(value, (value*10)))
+
 
 #Challenge10
 # Create an app to receive the user cash availability
