@@ -138,10 +138,34 @@ print('To paint this wall, you will need {}L of paint.'.format((width*height)/2)
 # Make a program to receive a product price and
 # shows its new price considering 5% off
 print('========================================')
-print('Challenge 12 - Product price and discount')
+print('Challenge 12 - Product price discount')
+# R$10,00 = 100%
+price = float(input('Please, insert the value input = '))
+discount = float(input('Now, type the discount value = '))
+print('Note: Insert a discount value between 0 and 100')
+print('The old price is R${:.2f} and the price with {:.1f}% off is R${:.2f}.'.format(price,discount,(price - (price*discount/100))))
 
 #Challenge13
 # Build a system to receive the worker salary
 # and show a new salary with a magnification of 15%.
 print('========================================')
-print('Challenge 13')
+print('Challenge 13 - Salary calculator')
+salaryInput = float(input('Type the employee salary = '))
+magnificationInput = float(input('Now, insert the magnification value = '))
+print('Old salary = R${:.2f} | Salary + {}% magnification = R${:.2f}'.format(salaryInput,magnificationInput,(salaryInput + (salaryInput * 15 / 100))))
+
+#Challenge14
+print('========================================')
+print('Challenge 14 - Temperature converter')
+celsiusInput = float(input('Insert the temperature in ºC = '))
+print('Celsius input = {}ºC | Fahrenheit output = {}ºF'.format(celsiusInput,(((9*celsiusInput)/5)+32)))
+
+#Challenge15
+print('========================================')
+print('Challenge 15 - Car rent system')
+daysRent = int(input('Type the car rent days = '))
+rolledKms = int(input('Now, insert the rolled kilometers = '))
+print('Rent days = {} | Used KMs = {}km | Total rent cost = R${:.2f}'.format(daysRent,rolledKms,((daysRent*60)+(rolledKms*0.15))))
+
+
+
