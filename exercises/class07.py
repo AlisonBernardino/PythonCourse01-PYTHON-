@@ -114,26 +114,31 @@ print('{} x 8 = {}'.format(value, (value*8)))
 print('{} x 9 = {}'.format(value, (value*9)))
 print('{} x 10 = {}'.format(value, (value*10)))
 
-
 #Challenge10
 # Create an app to receive the user cash availability
 # and shows how many dollars can be purchased
-# Consider = US$1.00 = R$5,24 (Updated in 2021/05/10 - 01:54)
+# Consider = US$1.00 = R$5,37 (Updated on 2021/05/21 - 20:45)
 print('========================================')
-print('Challenge 10')
+print('Challenge 10 - Coin converter')
+real = float(input('Type the value in reais (R$) = '))
+print('With R${:.2f}, you can buy US${:.2f}, €{:.2f} and ₽{:.2f}.'.format(real, (real/5.37),(real/6.54),(real/0.073)))
 
 #Challenge11
 # Build an app to receive the wall height, width,
 # calculates the area and the paint quantity needed to paint the wall.
 # Consider = 1L Paint can cover a 2m² area.
 print('========================================')
-print('Challenge 11')
+print('Challenge 11 - Painting a wall')
+width = float(input('Type the wall width = '))
+height = float(input('Now, insert the wall height = '))
+print('Wall dimensions = {} x {} | Area = {}m².'.format(width,height,(width*height)))
+print('To paint this wall, you will need {}L of paint.'.format((width*height)/2))
 
 #Challenge12
 # Make a program to receive a product price and
 # shows its new price considering 5% off
 print('========================================')
-print('Challenge 12')
+print('Challenge 12 - Product price and discount')
 
 #Challenge13
 # Build a system to receive the worker salary
